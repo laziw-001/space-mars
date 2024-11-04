@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Nosifer&family=Prociono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f0f0f0;
+}
+header {
+    border: 2px solid rgba(128, 128, 128, 0.555);
+    padding: 15px 0;
+    background-color: white;
+}
+.header-parents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-right {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 36px;
+    color: #424242;
+    font-weight: 700;
+}
+form {
+    background-color: white;
+    width: 650px;
+    margin: 0 auto;
+    border: 2px solid rgba(128, 128, 128, 0.555);
+    padding: 30px 50px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+.offer-link {
+    color: #f0400f; 
+    text-decoration: inherit;
+    font-weight: 700;
+}
+.main-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #f0400f;
+}
+h1 {
+    color: #0E0D5D;
+    margin-top: 100px;
+    font-size: 45px;
+    text-align: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    gap: 25px;
+    background-color: #f0f0f0;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: #757575;
+    padding: 0 5px;
+}
+.student {
+    width: 100%;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+.parent {
+    width: 100%;
+    height: 55px;
+    border-radius: 15px;
+    border: none;
+    color: #757575;
+}
+.student:active {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+.parent:active {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+input {
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f0f0f0;
+    padding: 0 50px;
+    font-size: 18px;
+}
+::placeholder {
+    font-size: 18px;
+}
+.qr {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #757575;
+}
+.send-parent {
+    display: flex;
+    justify-content: end;
+}
+.send {
+    margin-top: 30px;
+    width: 200px;
+    height: 67px;
+    border-radius: 20px;
+    background-color: #F69E86;
+    border: none;
+    color: white;
+}
+.send:hover {
+    background-color: #f76e63;
+}
